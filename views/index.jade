@@ -1,0 +1,8 @@
+extends ./layout
+
+block content
+  h1 Nurblizer
+  h3 Text to nurblize:
+  form(method="post", action="/nurble", name="aform")
+    textarea(name="text")
+    input(type="submit", value="Nurblize Away!")
